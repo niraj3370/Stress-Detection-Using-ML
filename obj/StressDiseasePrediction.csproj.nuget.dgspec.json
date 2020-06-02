@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Stage2\\StressApplicationFinal\\StressDiseasePrediction.csproj": {}
+  },
+  "projects": {
+    "D:\\Stage2\\StressApplicationFinal\\StressDiseasePrediction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Stage2\\StressApplicationFinal\\StressDiseasePrediction.csproj",
+        "projectName": "StressDiseasePrediction",
+        "projectPath": "D:\\Stage2\\StressApplicationFinal\\StressDiseasePrediction.csproj",
+        "packagesPath": "C:\\Users\\niraj\\.nuget\\packages\\",
+        "outputPath": "D:\\Stage2\\StressApplicationFinal\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\niraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.0.0-preview, )"
+            },
+            "Microsoft.ML.CpuMath": {
+              "target": "Package",
+              "version": "[1.0.0-preview, )"
+            },
+            "Microsoft.ML.FastTree": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Microsoft.ML.Mkl.Redist": {
+              "target": "Package",
+              "version": "[1.0.0-preview, )"
+            },
+            "Microsoft.ML.TimeSeries": {
+              "target": "Package",
+              "version": "[0.12.0-preview, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.Reflection.Emit.Lightweight": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Threading.Tasks.Dataflow": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
